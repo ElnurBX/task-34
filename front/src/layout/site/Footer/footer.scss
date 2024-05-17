@@ -1,0 +1,30 @@
+footer{
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .footer_input{
+        input{
+            border: 0;
+            outline: 0;
+            background: #d3d2d2;
+            padding: 10px;
+
+        }
+        button{
+            border: 0;
+            padding: 5px;
+            position: relative;
+            left: -10px;
+            top: 2px;
+            background: #ff2828;
+            color: #ffffff;
+            border-radius: 5px;
+        }
+    }
+    .list-unstyled{
+        li{
+            margin-top: 10px;
+        }
+    }
+}

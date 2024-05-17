@@ -1,0 +1,34 @@
+.costume__card{
+    padding: 0 15px;
+    flex-wrap: wrap;
+    transition: 0.5s all;
+    .costume__card__btn{
+        opacity: 0;
+        display: flex;
+        justify-content: space-between;
+        button{
+            border: 0;
+            background: #fff;
+            &:first-child{
+                color: red;
+            }
+        }
+    }
+    &:hover{
+        transition: 0.5s all;
+        .costume__card__btn{
+            opacity: 1;
+
+        }
+        .card__info{
+        padding:0  30px;
+        }
+    }
+    .card__info{
+        transition: 0.5s all;
+
+    }
+    a{
+        text-decoration: none;
+    }
+}

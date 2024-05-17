@@ -1,0 +1,21 @@
+.multi-card-carusel{
+    padding: 20px 0;
+    width: 100%;
+  
+    &__masive{
+        overflow-x: scroll;
+        &::-webkit-scrollbar {
+            display: none; 
+        }
+    }
+
+    &__button{
+        button{
+            background-color: transparent;
+            border: 0;
+            &:first-child{
+                border-right: 1px solid #ccc;
+            }
+        }
+    }
+}
